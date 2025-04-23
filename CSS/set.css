@@ -1,0 +1,23 @@
+#box{
+    background-color: blue;
+}
+.heading{
+    background-color: red;
+}
+button{
+    background-color: green;
+}
+p{
+    text-align: start;
+}
+#one{
+    font-family: cursive;
+}
+#two{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#p1{
+    font-size: 25px;
+    line-height: 20px;
+    text-transform: uppercase;
+}

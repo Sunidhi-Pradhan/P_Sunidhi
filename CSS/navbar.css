@@ -1,0 +1,29 @@
+#navbar{
+    /* padding: 0;
+    margin: 0; */
+    background-color: #0f1111;
+    height: 60px;
+
+}
+a{
+    color: white;
+    margin-right: 200px;
+
+}
+button{
+    background-color: #f0880f;
+}
+#logo{
+    color: #f0880f;
+    font-size: 25px;
+}
+/* #acc{
+    margin-left: 200px;
+}
+#cart{
+    margin-left: 200px;
+    margin-right: 200px;;
+}
+#con{
+    margin-right: 200px;
+} */
