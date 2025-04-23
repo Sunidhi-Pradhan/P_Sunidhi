@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- try to make a form -->
+    <form action="/action.php">
+        <h4>Give your Information</h4>
+        <input type="text" placeholder="Enter your name">
+        <input type="password" placeholder="password">
+        <br>
+
+        <!-- radiobutton -->
+        <h5>select your class</h5>
+        <label for="101">
+        <input type="radio" value="cls xi" name="cls" id="101">class xi
+        </label>  <br>
+        <label for="102">   
+            <input type="radio" value="cls xii" name="cls" id="102" >class xii
+        </label>
+        <br>
+
+        <!-- checkbox -->
+        <h5>select your subject</h5>
+        <label for="Math">
+            <input type="checkbox" value="math" name="subject" id="101">Math
+             </label><br>
+        <label for="phy">
+            <input type="checkbox" value="phy" name="subject" id="102">phy
+            </label><br>
+       <label for="Chem">
+                <input type="checkbox" value="chem" name="subject" id="103">chem
+                </label><br>
+        <label for="cs">
+                    <input type="checkbox" value="cs" name="subject" id="104">cs
+                    </label><br><br>
+
+        <!-- To implement dropdown we have to apply select-->
+         <h5>please select your city</h5>
+
+        <select name="city" id="city">
+            <option value="sbp">Sambalpur</option>
+            <option value="brghr">bargarh</option>
+            <option value="jsg">jharsuguda</option>
+            <option value="sdg">sundargarh</option>
+        </select><br>
+
+        <!-- textarea -->
+        <textarea name="feedback" id="101" placeholder="please give your feedback" rows="5">feedback</textarea>
+        <br>
+
+        <!-- submit -->
+         <input type="submit"  value="submit">
+    </form>
+</body>
+</html>

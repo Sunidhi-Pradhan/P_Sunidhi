@@ -1,0 +1,52 @@
+/* 
+/* this is the element selector */
+h1
+{
+    /* <!-- alpha channel -->
+      <!-- rgba(opacity)0-1 -->
+     */
+    color: rgba(255, 00, 00, 1)
+    background-color: black;
+}
+h2{
+    color: blue;
+}
+body{
+    /* background-color:#09BC8A; */
+}
+
+/* thhis is the class selector */
+#hi{
+    text-align: right;
+}
+/* this is the universal selector */
+*{
+    color: pink;
+}
+p{
+    display: inline-block;
+}
+/* div{
+    height:100px;
+    width: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+    
+} */
+/* #box2{
+    /* visibility: hidden; */
+    /* display: none; */
+    background-color: rgba(255, 00, 00,1);
+} */
+ */
+div{
+    height: 100px;
+    width: 100px;
+    background-color: pink;
+}
+@media(width :600px) {
+    div{
+        background-color: red;
+    }
+}
