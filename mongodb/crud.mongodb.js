@@ -83,3 +83,12 @@ db.courses.insertMany([
   }
 ]
 );
+
+// Find all courses
+let a = db.courses.find({price:0})
+console.log(a)
+console.log(a.toArray())
+console.log(a.count())
+
+let b = db.courses.findOne({price:0})
+console.log(b)
