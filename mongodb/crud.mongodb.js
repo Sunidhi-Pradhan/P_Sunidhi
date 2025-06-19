@@ -1,7 +1,11 @@
+//create a database called crudDB
 use("crudDB")
 // console.log(db)
+
+// Create a collection called courses
 db.createCollection("courses")
 
+// Insert a single document into the courses collection
 db.courses.insertOne({
     name: "MongoDB Basics",
     description: "Learn the basics of MongoDB",
@@ -10,6 +14,7 @@ db.courses.insertOne({
     projects:30
 });
 
+// Insert multiple documents into the courses collection
 db.courses.insertMany([
   {
     "name": "MongoDB Basics",
