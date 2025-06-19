@@ -99,11 +99,18 @@ db.createCollection("courses")
 // console.log(b)
 
 // Update a course
-db.courses.updateOne(
-    { name: "MongoDB Basics" },
-    { $set: { price: 100 } }
-);
-db.courses.updateMany(
-    { price: 0 },
-    { $set: { price: 1000 } }
+// db.courses.updateOne(
+//     { name: "MongoDB Basics" },
+//     { $set: { price: 100 } }
+// );
+// db.courses.updateMany(
+//     { price: 0 },
+//     { $set: { price: 1000 } }
+// });
+
+// Delete a course
+db.courses.deleteOne(
+    { name: "MongoDB Basics" });
+db.courses.deleteMany(
+    { price: 1000 }
 );
