@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>snake water gun</title>
+</head>
+<body>
+    <script>
+        let playAgain = true;
+        while(playAgain ){
+            let user = prompt("Enter S for  snake,W for water, G for Gun")
+            user = user.toUpperCase();
+            let choice =["S","W","G"];
+            let comp = choice[Math.floor(Math.random()*3)];
+
+            if(user == comp){
+                alert("draw!");
+            }else if(
+                (user == "S" && comp == "W")||
+                (user == "W" && comp == "G")||
+                (user == "G" && comp == "S")
+                )
+            {
+                alert("you win!");
+            }else{
+                alert("you lose!");
+            }
+        }
+
+  </script>
+</body>
+</html>
